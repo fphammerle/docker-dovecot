@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  dovecot:
+    build: .
+    image: fphammerle/dovecot
+    security_opt: [no-new-privileges]
+    restart: unless-stopped
+
+# https://docs.docker.com/compose/compose-file/compose-file-v2/
