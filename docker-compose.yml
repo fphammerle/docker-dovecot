@@ -1,9 +1,14 @@
 version: '2'
 
+volumes:
+  ssl:
+
 services:
   dovecot:
     build: .
     image: fphammerle/dovecot
+    volumes:
+    - ssl:/etc/ssl/dovecot:ro
     security_opt: [no-new-privileges]
     restart: unless-stopped
 
