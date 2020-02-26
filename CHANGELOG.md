@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - pin dovecot package version
   ( https://github.com/hadolint/hadolint/wiki/DL3018 )
+- remove pre-generated TLS key/cert pair
 
 ## [0.1.1] - 2019-08-25
 - mount dir `/etc/ssl/dovecot` providing SSL key & cert
