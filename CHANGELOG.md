@@ -5,6 +5,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [1.0.0] - 2020-02-26
 ### Added
 - dovecot lmtp server
   ( https://doc.dovecot.org/configuration_manual/protocols/lmtp_server/ )
@@ -24,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - minimal dovecot on alpine 3.10
 
-[Unreleased]: https://github.com/fphammerle/docker-dovecot/compare/0.1.1...HEAD
+[Unreleased]: https://github.com/fphammerle/docker-dovecot/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/fphammerle/docker-dovecot/compare/0.1.0...v1.0.0
 [0.1.1]: https://github.com/fphammerle/docker-dovecot/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/fphammerle/docker-dovecot/tree/0.1.0
