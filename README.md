@@ -1,6 +1,6 @@
 # dovecot ✉️ 🐳
 
-Dovecot: IMAP, POP3 & SASL Auth Server
+Dovecot: IMAP, POP3, LMTP & SASL Auth Server
 
 https://www.dovecot.org/
 
@@ -48,3 +48,7 @@ smtpd_sasl_path = inet:dovecot:12345
 
 smtpd_relay_restrictions = [...], permit_sasl_authenticated, reject_unauth_destination
 ```
+
+## Deliver Mail From Postfix to Dovecot via LMTP
+
+https://wiki2.dovecot.org/HowTo/PostfixDovecotLMTP
