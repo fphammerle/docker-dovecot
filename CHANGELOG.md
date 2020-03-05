@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-03-05
+### Added
+- pigeonhole: sieve & managesieve plugin for dovecot
+
 ## [1.0.0] - 2020-02-26
 ### Added
 - dovecot lmtp server
@@ -26,7 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - minimal dovecot on alpine 3.10
 
-[Unreleased]: https://github.com/fphammerle/docker-dovecot/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/fphammerle/docker-dovecot/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/fphammerle/docker-dovecot/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/fphammerle/docker-dovecot/compare/0.1.0...v1.0.0
 [0.1.1]: https://github.com/fphammerle/docker-dovecot/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/fphammerle/docker-dovecot/tree/0.1.0
