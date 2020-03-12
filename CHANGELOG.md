@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-03-12
+### Added
+- socat for [sieve_extprograms](https://wiki2.dovecot.org/Pigeonhole/Sieve/Plugins/Extprograms)
+  (actions / filters may now run in separate container)
+
 ## [1.1.0] - 2020-03-05
 ### Added
 - pigeonhole: sieve & managesieve plugin for dovecot
@@ -30,7 +35,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - minimal dovecot on alpine 3.10
 
-[Unreleased]: https://github.com/fphammerle/docker-dovecot/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/fphammerle/docker-dovecot/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/fphammerle/docker-dovecot/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/fphammerle/docker-dovecot/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/fphammerle/docker-dovecot/compare/0.1.0...v1.0.0
 [0.1.1]: https://github.com/fphammerle/docker-dovecot/compare/0.1.0...0.1.1
