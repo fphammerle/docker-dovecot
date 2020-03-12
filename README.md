@@ -1,6 +1,12 @@
 # dovecot ✉️ 🐳
 
-Dovecot: IMAP, POP3, LMTP & SASL Auth Server
+Dovecot:
+[IMAP](https://doc.dovecot.org/configuration_manual/protocols/imap_server/),
+[POP3](https://doc.dovecot.org/configuration_manual/protocols/pop3_server/),
+[LMTP](https://doc.dovecot.org/configuration_manual/protocols/lmtp_server/),
+[SASL Auth](https://wiki.dovecot.org/HowTo/PostfixAndDovecotSASL) &
+[ManageSieve](https://doc.dovecot.org/admin_manual/pigeonhole_managesieve_server/)
+Server
 
 https://www.dovecot.org/
 
