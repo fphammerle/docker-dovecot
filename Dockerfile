@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.18.3
+FROM docker.io/alpine:3.18.4
 
 ARG DOVECOT_PACKAGE_VERSION=2.3.20-r10
 ARG SOCAT_PACKAGE_VERSION=1.7.4.4-r1
