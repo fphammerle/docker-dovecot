@@ -1,6 +1,7 @@
 FROM docker.io/alpine:3.18.4
 
-ARG DOVECOT_PACKAGE_VERSION=2.3.20-r10
+# https://git.alpinelinux.org/aports/log/main/dovecot?h=3.18-stable
+ARG DOVECOT_PACKAGE_VERSION=2.3.20-r11
 ARG SOCAT_PACKAGE_VERSION=1.7.4.4-r1
 RUN apk add --no-cache \
         dovecot-lmtpd=$DOVECOT_PACKAGE_VERSION \
