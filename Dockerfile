@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.18.4
+FROM docker.io/alpine:3.18.5
 
 # https://git.alpinelinux.org/aports/log/main/dovecot?h=3.18-stable
 ARG DOVECOT_PACKAGE_VERSION=2.3.20-r11
