@@ -1,4 +1,4 @@
-FROM docker.io/alpine:3.19.0
+FROM docker.io/alpine:3.19.1
 
 # https://dovecot.org/doc/NEWS
 # https://git.alpinelinux.org/aports/log/main/dovecot?h=3.19-stable
