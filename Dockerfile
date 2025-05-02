@@ -5,7 +5,7 @@ FROM docker.io/alpine:3.21.3
 ARG DOVECOT_PACKAGE_VERSION=2.3.21.1-r0
 # http://www.dest-unreach.org/socat/
 # https://git.alpinelinux.org/aports/log/main/socat?h=3.21-stable
-ARG SOCAT_PACKAGE_VERSION=1.8.0.1-r0
+ARG SOCAT_PACKAGE_VERSION=1.8.0.3-r0
 RUN apk add --no-cache \
         dovecot-lmtpd=$DOVECOT_PACKAGE_VERSION \
         dovecot-pigeonhole-plugin=$DOVECOT_PACKAGE_VERSION \
